@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://i.imgur.com/Qp5ErEd.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/suite-landing-page-using-tailwind-css-1U5SffJxY-](https://www.frontendmentor.io/solutions/suite-landing-page-using-tailwind-css-1U5SffJxY-)
+- Live Site URL: [https://suite-page.netlify.app/](https://suite-page.netlify.app/)
 
 ## My process
 
