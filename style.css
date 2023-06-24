@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.line {
+  position: relative;
+}
+
+.line::before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  top: -28px;
+  left: 0;
+  width: 152px;
+  height: 21px;
+  background: url('/pattern-curved-line-1.svg') no-repeat;
+  background-size: contain;
+}
+
+.btn-gradient {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-gradient::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: linear-gradient(135deg, #a060ff 0%, #cb30e3 49.21%, #ffa84e 100%);
+  transition: opacity 0.2s;
+}
+
+.btn-gradient span {
+  position: relative;
+  z-index: 1;
+}
+
+.btn-gradient:hover::before {
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .line::before {
+    width: 231px;
+    height: 29px;
+    top: -40px;
+  }
+}
+
+@media (min-width: 1110px) {
+  .line::before {
+    width: 275px;
+    height: 37px;
+    top: -54px;
+    background-size: cover;
+  }
+}

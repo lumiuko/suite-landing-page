@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Suite landing page</title>
+    <script src="https://kit.fontawesome.com/56471ca088.js" crossorigin="anonymous" defer></script>
+  </head>
+  <body class="text-body leading-body bg-cream-white text-gray">
+    <header class="px-4 pt-6 md:px-10 xl:pt-[3.125rem]">
+      <div class="max-w-container mx-auto flex justify-between items-center">
+        <img src="/logo.svg" alt="Logo" />
+        <a href="#" class="text-dark-blue font-bold text-[0.875rem] leading-[1.5rem] px-4 py-3 rounded-btn border-[1px] border-dark-blue md:text-s md:leading-body hover:bg-dark-blue hover:text-cream-white transition-colors">
+          Request Beta Access
+        </a>
+      </div>
+    </header>
+    <main class="mt-[5.25rem] md:mt-20 xl:mt-[4.25rem]">
+      <section class="px-4 md:px-10">
+        <div class="max-w-container mx-auto grid gap-14 md:grid-cols-2 md:items-center md:gap-x-0 md:justify-between md:justify-items-end md:gap-y-[5.5rem] xl:grid-cols-[480px_350px_auto] xl:justify-start">
+          <div>
+            <h1 class="relative text-[2.375rem] leading-[2.75rem] tracking-l text-dark-blue md:text-[3.5rem] md:leading-[4rem] md:mr-[-10.25rem] xl:text-xl xl:leading-xl xl:-mr-40">A <span class="font-bold">super <span class="line">solution</span></span> for your <span class="font-bold">business.</span></h1>
+            <p class="mt-8 text-[1rem] leading-[1.75rem] md:mt-10 md:max-w-[350px] tracking-[0.1px] xl:text-body xl:leading-body">
+              Our marketing and sales automations help you scale your outreach to get more leads for your company.
+            </p>
+            <a href="#" class="btn-gradient inline-block mt-8 bg-dark-blue text-cream-white font-bold tracking-[-0.18px] px-8 py-[0.875rem] rounded-btn md:mt-10 xl:mt-[3.25rem]">
+              <span>Request Beta Access</span>
+            </a>
+          </div>
+          <picture>
+            <source srcset="/image-hero-portrait.webp 1x, /image-hero-portrait@2x.webp 2x" type="image/webp" media="(min-width: 768px)" />
+            <source srcset="/image-hero-portrait.png 1x, /image-hero-portrait@2x.png 2x" type="image/png" media="(min-width: 768px)" />
+            <source srcset="/image-hero-landscape.webp 1x, /image-hero-landscape@2x.webp 2x" type="image/webp" />
+            <source srcset="/image-hero-landscape.png, /image-hero-landscape@2x.png 2x" type="image/png" />
+            <img src="/image-hero-landscape.png" class="w-full md:max-w-[281px] xl:max-w-[350px]" alt="Hero image" />
+          </picture>
+          <div class="flex flex-col gap-8 text-center md:col-span-2 md:justify-self-stretch md:flex-row md:gap-[0.625rem] xl:col-span-1 xl:flex-col xl:text-left xl:gap-16 xl:max-w-[190px] xl:ml-24">
+            <div class="flex-1">
+              <h2 class="text-l leading-[3.5rem] text-dark-blue font-bold">2K+</h2>
+              <p class="mt-[0.0625rem] uppercase tracking-[2.5px] text-s leading-s">Companies</p>
+            </div>
+            <div class="flex-1">
+              <h2 class="text-l leading-[3.5rem] text-dark-blue font-bold">8</h2>
+              <p class="mt-[0.0625rem] uppercase tracking-[2.5px] text-s leading-s">Languages</p>
+            </div>
+            <div class="flex-1">
+              <h2 class="text-l leading-[3.5rem] text-dark-blue font-bold">1.2M</h2>
+              <p class="mt-[0.0625rem] uppercase tracking-[2.5px] text-s leading-s">Leads</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mb-[-8.375rem] mt-[14.75rem] relative md:mt-[17rem] md:px-10 md:mb-[-29rem] xl:mb-[-16.5rem] xl:mt-[12.5rem]">
+        <div class="max-w-container mx-auto bg-dark-blue px-4 pb-16 flex flex-col items-center rounded-card md:px-[3.625rem] xl:flex-row xl:px-[7.75rem] xl:pb-0 bg-pattern-mobile bg-no-repeat bg-[top_-80px_center] md:bg-pattern-tablet md:bg-[top_-138px_center] xl:bg-pattern-desktop xl:bg-[bottom_-75px_left_20px]">
+          <picture class="mt-[-11.25rem] xl:-mt-11 xl:self-end">
+            <source srcset="/image-jeremy-large@2x.webp 2x" type="image/webp" media="(min-width: 768px)" />
+            <source srcset="/image-jeremy-large@2x.png 2x" type="image/png" media="(min-width: 768px)" />
+            <source srcset="/image-jeremy-small.webp 1x, /image-jeremy-small@2x.webp 2x" type="image/webp" />
+            <source srcset="/image-jeremy-small.png 1x, /image-jeremy-small@2x.png 2x" type="image/png" />
+            <img src="/image-jeremy-small.png" class="md:max-h-[402px] xl:max-h-[590px]" alt="Person holding a phone" />
+          </picture>
+          <img src="/pattern-curved-line-2.svg" class="mt-10 w-[50px] xl:self-start xl:mt-40 xl:ml-9" alt="Divider" />
+          <div class="mt-9 text-cream-white text-center xl:max-w-[350px] xl:text-left xl:ml-[3.25rem] xl:my-[5.5rem]">
+            <h2 class="text-[2.5rem] leading-[3rem] xl:text-l xl:leading-l">It just <span class="font-bold">works.</span></h2>
+            <p class="mt-10 text-cream tracking-[0.1px] xl:text-[1.25rem] xl:leading-[2.1875rem]">“I really like how it is an all-in-one solution that handle many of the tasks that you would normally need separate tools to do the same job. This thing is a miracle worker.”</p>
+            <div class="mt-10 uppercase">
+              <div class="font-bold">Jeremy Robinson</div>
+              <div class="text-s leading-s tracking-[2.5px]">CMO, Fylo</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-cream pt-[11.875rem] pb-20 md:pt-[33.5rem] md:pb-[4.5rem] md:px-10 text-footer leading-footer xl:pt-[22.5rem]">
+      <div class="max-w-container mx-auto flex flex-col justify-between items-center gap-8 md:flex-row">
+        <img src="/logo.svg" alt="Logo" />
+        <p>Copyright - Suite</p>
+        <div class="flex justify-center items-center gap-7 text-dark-blue leading-[1.25rem]">
+          <a href="#" aria-label="Facebook">
+            <i class="fa-brands fa-square-facebook fa-xl hover:opacity-50 transition-opacity" aria-hidden="true"></i>
+          </a>
+          <a href="#" aria-label="Twitter">
+            <i class="fa-brands fa-twitter fa-xl hover:opacity-50 transition-opacity" aria-hidden="true"></i>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <i class="fa-brands fa-instagram fa-xl hover:opacity-50 transition-opacity" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
